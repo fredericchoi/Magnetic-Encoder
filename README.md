@@ -8,3 +8,4 @@ Notes :
 !Need to be done:  
 1. check magnetic signal (low byte [1] (0: magnet checked; 1: no magnet checked;)})  
 2. parity check (according to the user manual Mt6813)  
+3. the SYSTEM CLOCK seams not correct, should be improved.
