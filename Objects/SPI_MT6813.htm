@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\SPI_MT6813.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\SPI_MT6813.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060020: Last Updated: Thu Jan 10 13:39:22 2019
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060020: Last Updated: Fri Jan 11 17:38:19 2019
 <BR><P>
 <H3>Maximum Stack Usage =         56 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -335,12 +335,12 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_MT6813_Init
 </UL>
 
-<P><STRONG><a name="[3b]"></a>ReadAngle</STRONG> (Thumb, 82 bytes, Stack size 24 bytes, spi_mt6813.o(i.ReadAngle))
+<P><STRONG><a name="[3b]"></a>ReadAngle</STRONG> (Thumb, 74 bytes, Stack size 24 bytes, spi_mt6813.o(i.ReadAngle))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ReadAngle
 </UL>
-<BR>[Calls]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
+<BR>[Calls]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+<LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
 <LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPIx_ReadWriteByte
-<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
 </UL>
 <BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>

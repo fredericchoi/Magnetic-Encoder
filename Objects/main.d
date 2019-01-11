@@ -13,5 +13,4 @@
 .\objects\main.o: D:\Program Files (x86)\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
 .\objects\main.o: D:\Program Files (x86)\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h
 .\objects\main.o: D:\Program Files (x86)\KEIL5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h
-.\objects\main.o: Users\led.h
 .\objects\main.o: Users\spi_MT6813.h
